@@ -1,0 +1,26 @@
+{
+    "name": "vazhenegar/faq",
+    "description": "faq page for websites",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iraj azarvand",
+            "email": "vazhenagar@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "faq\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "faq\\FaqServiceProvider"
+            ]
+        }
+    }
+}
